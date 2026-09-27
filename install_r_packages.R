@@ -1,0 +1,25 @@
+# R packages used by bias/src.ipynb and bias_weapon/src.ipynb (matching and outcome models)
+install.packages(c(
+  "MatchIt",
+  "cobalt",
+  "EValue",
+  "rbounds",
+  "sensemakr",
+  "brglm2",
+  "cluster",
+  "dplyr",
+  "ggplot2",
+  "ggtext",
+  "lmtest",
+  "lubridate",
+  "marginaleffects",
+  "patchwork",
+  "purrr",
+  "readr",
+  "sandwich",
+  "stringr",
+  "survival",
+  "tableone",
+  "tibble",
+  "tidyr"
+))

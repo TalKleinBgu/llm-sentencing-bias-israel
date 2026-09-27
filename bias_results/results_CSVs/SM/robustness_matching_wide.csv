@@ -1,0 +1,34 @@
+﻿Domain,Offense,Analysis,Comparison,outcome,Logit NNM (primary),Gower distance,Exact on offense vars,Deterministic pairing
+Drugs,cannabis,District (one vs rest),Center vs rest,is_actual_sentence,"+0.19*** (p=0.000, n=223)","+0.21*** (p=0.000, n=199)","+0.25** (p=0.001, n=80)",
+Drugs,cannabis,District (one vs rest),Center vs rest,max_punishment,"+3.52 (p=0.083, n=223)","+3.83 (p=0.059, n=199)","+3.89 (p=0.273, n=80)",
+Drugs,cannabis,District (one vs rest),Center vs rest,min_punishment,"+1.82 (p=0.283, n=223)","+1.82 (p=0.391, n=199)","+2.11 (p=0.462, n=80)",
+Drugs,cannabis,District (one vs rest),Jerusalem vs rest,is_actual_sentence,"-0.21** (p=0.003, n=156)","-0.22*** (p=0.001, n=147)","-0.24* (p=0.015, n=85)",
+Drugs,cannabis,District (one vs rest),Jerusalem vs rest,max_punishment,"-2.82 (p=0.268, n=156)","-2.84 (p=0.269, n=147)","-2.81 (p=0.768, n=85)",
+Drugs,cannabis,District (one vs rest),Jerusalem vs rest,min_punishment,"-1.49 (p=0.548, n=156)","-1.58 (p=0.397, n=147)","-1.62 (p=0.792, n=85)",
+Drugs,cannabis,Ethnicity,Arab vs Jewish,is_actual_sentence,"+0.15** (p=0.005, n=92)","+1.54*** (p=0.000, n=101)","+1.07 (p=0.098, n=46)",+0.19*** (p=0.001)
+Drugs,cannabis,Ethnicity,Arab vs Jewish,max_punishment,"+0.83 (p=0.657, n=92)","+2.13 (p=0.238, n=101)","+2.13 (p=0.234, n=46)",+1.26 (p=0.318)
+Drugs,cannabis,Ethnicity,Arab vs Jewish,min_punishment,"+0.25 (p=0.822, n=92)","+1.54 (p=0.152, n=101)","+0.89 (p=0.414, n=46)",+0.79 (p=0.311)
+Drugs,cocaine,Ethnicity,Arab vs Jewish,is_actual_sentence,"+0.20*** (p=0.000, n=86)","+1.59** (p=0.001, n=102)","+0.46 (p=0.420, n=64)",+0.10* (p=0.032)
+Drugs,cocaine,Ethnicity,Arab vs Jewish,max_punishment,"+5.69 (p=0.074, n=86)","+6.51* (p=0.017, n=102)","-2.02 (p=0.558, n=64)",+2.45 (p=0.234)
+Drugs,cocaine,Ethnicity,Arab vs Jewish,min_punishment,"+2.84 (p=0.141, n=86)","+3.30* (p=0.042, n=102)","-1.34 (p=0.524, n=64)",+0.99 (p=0.418)
+Drugs,hashish,Ethnicity,Arab vs Jewish,is_actual_sentence,"+0.16 (p=0.060, n=38)","+1.22* (p=0.032, n=57)","+0.81 (p=0.408, n=20)",+0.16* (p=0.028)
+Drugs,hashish,Ethnicity,Arab vs Jewish,max_punishment,"+3.21 (p=0.121, n=38)","+5.30* (p=0.039, n=57)","+1.85 (p=0.532, n=20)",+3.75 (p=0.214)
+Drugs,hashish,Ethnicity,Arab vs Jewish,min_punishment,"+2.42* (p=0.025, n=38)","+2.93* (p=0.021, n=57)","+2.45 (p=0.127, n=20)",+3.07* (p=0.031)
+Weapons,carrying_only,Ethnicity,Arab vs Jewish,is_actual_sentence,"-0.03 (p=nan, n=39)","-0.00 (p=1.000, n=58)","+0.00 (p=1.000, n=42)",+0.00 (p=nan)
+Weapons,carrying_only,Ethnicity,Arab vs Jewish,max_punishment,"+4.41 (p=0.615, n=39)","+35.86 (p=0.050, n=58)","+19.45 (p=0.081, n=42)",+2.67 (p=0.758)
+Weapons,carrying_only,Ethnicity,Arab vs Jewish,min_punishment,"+3.74 (p=0.536, n=39)","+14.83 (p=0.132, n=58)","+12.19 (p=0.126, n=42)",+2.26 (p=0.727)
+Weapons,importing_only,Ethnicity,Arab vs Jewish,is_actual_sentence,"+0.00 (p=1.000, n=4)","-0.00 (p=1.000, n=8)","-0.00 (p=1.000, n=5)",+0.00 (p=nan)
+Weapons,importing_only,Ethnicity,Arab vs Jewish,max_punishment,"-2.50 (p=0.847, n=4)","+30.25 (p=0.100, n=8)","+2.20 (p=0.834, n=5)",+4.25 (p=0.826)
+Weapons,importing_only,Ethnicity,Arab vs Jewish,min_punishment,"+0.50 (p=0.969, n=4)","+16.75 (p=0.158, n=8)","+3.00 (p=0.752, n=5)",+5.75 (p=0.716)
+Weapons,possession_only,District (one vs rest),South vs rest,is_actual_sentence,"+0.00 (p=1.000, n=61)","-0.05 (p=1.000, n=59)","-0.07 (p=nan, n=60)",
+Weapons,possession_only,District (one vs rest),South vs rest,max_punishment,"+12.15* (p=0.023, n=61)","+4.56 (p=1.000, n=59)","+4.45 (p=1.000, n=60)",
+Weapons,possession_only,District (one vs rest),South vs rest,min_punishment,"+7.90* (p=0.017, n=61)","+3.22 (p=1.000, n=59)","+2.85 (p=1.000, n=60)",
+Weapons,possession_only,Ethnicity,Arab vs Jewish,is_actual_sentence,"+0.43 (p=0.655, n=42)","+2.02 (p=0.065, n=86)","+1.87 (p=0.092, n=64)",+0.03 (p=0.369)
+Weapons,possession_only,Ethnicity,Arab vs Jewish,max_punishment,"+2.69 (p=0.595, n=42)","+5.05 (p=0.150, n=86)","-0.09 (p=0.983, n=64)",-0.38 (p=0.916)
+Weapons,possession_only,Ethnicity,Arab vs Jewish,min_punishment,"+1.79 (p=0.568, n=42)","+1.63 (p=0.441, n=86)","-0.55 (p=0.853, n=64)",-1.46 (p=0.546)
+Weapons,possession_only,Period,COVID (post vs pre),is_actual_sentence,"+0.02 (p=0.311, n=124)","+0.03 (p=0.199, n=124)","+0.05 (p=0.089, n=108)",
+Weapons,possession_only,Period,COVID (post vs pre),max_punishment,"+4.99* (p=0.022, n=124)","+5.23* (p=0.032, n=124)","+4.49 (p=0.073, n=108)",
+Weapons,possession_only,Period,COVID (post vs pre),min_punishment,"+4.92*** (p=0.000, n=124)","+4.50** (p=0.004, n=124)","+4.22** (p=0.009, n=108)",
+Weapons,possession_only,Period,War (post vs pre),is_actual_sentence,"+0.03 (p=0.176, n=91)","+0.06* (p=0.030, n=101)","+0.05 (p=0.054, n=96)",
+Weapons,possession_only,Period,War (post vs pre),max_punishment,"+2.68 (p=0.360, n=91)","+1.53 (p=0.587, n=101)","+1.76 (p=0.507, n=96)",
+Weapons,possession_only,Period,War (post vs pre),min_punishment,"+4.64* (p=0.011, n=91)","+2.54 (p=0.180, n=101)","+2.41 (p=0.170, n=96)",

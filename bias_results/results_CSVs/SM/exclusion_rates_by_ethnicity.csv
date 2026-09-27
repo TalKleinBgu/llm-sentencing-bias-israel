@@ -1,0 +1,5 @@
+﻿Domain,ethnic,n,n_excluded,excluded_share
+Drugs,Arab,300,40,0.13333333333333333
+Drugs,Jewish,1227,214,0.17440912795436023
+Weapons,Arab,695,65,0.09352517985611511
+Weapons,Jewish,190,32,0.16842105263157894

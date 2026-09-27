@@ -1,0 +1,55 @@
+﻿Domain,Offense,Analysis,Comparison,max |ASMD| before,max |ASMD| after,covariates > 0.25 after,which
+Drugs,cannabis,ethnicity,Arab vs Jewish,0.796,0.167,0,
+Drugs,cannabis,district,Center vs rest,0.401,0.083,0,
+Drugs,cannabis,district,Haifa vs rest,0.793,0.172,0,
+Drugs,cannabis,district,Jerusalem vs rest,0.798,0.171,0,
+Drugs,cannabis,district,North vs rest,1.15,0.359,2,"Drug quantity (log) (0.36), Year (0.25)"
+Drugs,cannabis,district,South vs rest,0.491,0.106,0,
+Drugs,cannabis,district,Tel Aviv vs rest,0.442,0.282,1,Year (0.28)
+Drugs,cannabis,period,COVID (post vs pre),0.493,0.122,0,
+Drugs,cannabis,period,War (post vs pre),0.515,0.142,0,
+Drugs,cannabis,sector,"War, Arab defendants",0.622,0.223,0,
+Drugs,cannabis,sector,"War, Jewish defendants",0.49,0.165,0,
+Drugs,cocaine,ethnicity,Arab vs Jewish,0.962,0.173,0,
+Drugs,cocaine,district,Center vs rest,0.877,0.292,1,Possession / use offense (0.29)
+Drugs,cocaine,district,Haifa vs rest,0.472,0.261,1,Laboratory / growing (0.26)
+Drugs,cocaine,district,Jerusalem vs rest,0.682,0.291,2,"Defendant Arab (0.27), Drug quantity (log) (0.29)"
+Drugs,cocaine,district,South vs rest,1.011,0.249,0,
+Drugs,cocaine,district,Tel Aviv vs rest,0.413,0.216,0,
+Drugs,cocaine,period,COVID (post vs pre),0.653,0.118,0,
+Drugs,cocaine,period,War (post vs pre),1.328,0.162,0,
+Drugs,cocaine,sector,"War, Arab defendants",0.913,0.346,1,Expressed regret (0.35)
+Drugs,cocaine,sector,"War, Jewish defendants",1.616,0.28,2,"Judge Arab (0.25), Criminal record: serious (0.28)"
+Drugs,hashish,ethnicity,Arab vs Jewish,1.136,0.303,3,"Judge Arab (0.29), Guilty plea (0.28), Personal use (0.30)"
+Drugs,hashish,district,Center vs rest,0.531,0.186,0,
+Drugs,hashish,district,Jerusalem vs rest,0.56,0.354,1,Year (0.35)
+Drugs,hashish,district,South vs rest,0.478,0.23,0,
+Drugs,hashish,district,Tel Aviv vs rest,1.472,0.582,4,"Criminal record: serious (0.58), Criminal record: light (0.50), Year (0.49), Defendant Arab (0.31)"
+Drugs,hashish,period,COVID (post vs pre),0.819,0.487,5,"Expressed regret (0.32), Criminal record: none (0.37), Age (0.46), District: Tel Aviv (0.49), Sold to agent (0.46)"
+Weapons,possession_only,ethnicity,Arab vs Jewish,1.752,0.285,3,"Damage: none (0.27), Judge Arab (0.29), District: Tel Aviv (0.28)"
+Weapons,possession_only,district,Center vs rest,0.437,0.204,0,
+Weapons,possession_only,district,Haifa vs rest,1.066,0.175,0,
+Weapons,possession_only,district,Jerusalem vs rest,0.679,0.156,0,
+Weapons,possession_only,district,North vs rest,0.475,1.049,13,"assault rifle (0.31), Divorced (0.49), District court (0.58), Criminal record: none (0.37), ammunition only (0.33), Premeditation (0.37), Damage: light (0.33), Magazines (log) (0.51), Single (0.63), Defendant Arab (0.73), Expressed regret (0.63), Age (1.05), Guilty plea (0.42)"
+Weapons,possession_only,district,South vs rest,0.532,0.249,0,
+Weapons,possession_only,district,Tel Aviv vs rest,1.995,1.04,12,"Criminal record: serious (0.43), improvised firearm (1.04), Criminal record: none (0.40), Premeditation (0.43), handgun (0.42), Independent offenses (0.41), Year (0.65), Magazines (log) (0.32), Divorced (0.40), Single (0.60), Expressed regret (0.86), Defendant Arab (0.60)"
+Weapons,possession_only,period,COVID (post vs pre),0.354,0.149,0,
+Weapons,possession_only,period,War (post vs pre),0.495,0.274,1,Damage: light (0.27)
+Weapons,possession_only,sector,"War, Arab defendants",0.629,0.147,0,
+Weapons,possession_only,sector,"War, Jewish defendants",0.501,0.428,4,"Premeditation (0.25), Guilty plea (0.43), District court (0.36), District: Center (0.27)"
+Weapons,carrying_only,ethnicity,Arab vs Jewish,1.184,0.613,6,"Premeditation (0.26), Judge Arab (0.28), Year (0.26), District: North (0.61), handgun (0.46), Divorced (0.25)"
+Weapons,carrying_only,district,Center vs rest,0.425,0.187,0,
+Weapons,carrying_only,district,Haifa vs rest,0.625,0.138,0,
+Weapons,carrying_only,district,Jerusalem vs rest,0.798,0.186,0,
+Weapons,carrying_only,district,North vs rest,1.031,0.821,17,"Criminal record: none (0.25), Guilty plea (0.47), Escape attempt (0.30), Expressed regret (0.30), Criminal record: serious (0.54), Independent offenses (0.47), Criminal record: light (0.30), Age (0.82), Married (0.54), Damage: none (0.50), Premeditation (0.27), Single (0.54), improvised firearm (0.45), handgun (0.48), Damage: severe (0.47), Damage: light (0.77), Judge Arab (0.25)"
+Weapons,carrying_only,district,South vs rest,0.393,0.35,6,"Defendant Arab (0.29), Single (0.28), Married (0.35), Magazines (log) (0.29), assault rifle (0.28), Bullets (log) (0.33)"
+Weapons,carrying_only,district,Tel Aviv vs rest,0.986,0.71,5,"Age (0.71), improvised firearm (0.49), Bullets (log) (0.30), handgun (0.53), Widowed (0.28)"
+Weapons,carrying_only,period,COVID (post vs pre),0.387,0.136,0,
+Weapons,carrying_only,period,War (post vs pre),0.41,0.133,0,
+Weapons,carrying_only,sector,"War, Arab defendants",0.451,0.22,0,
+Weapons,carrying_only,sector,"War, Jewish defendants",1.411,0.455,8,"Premeditation (0.38), Single (0.36), improvised firearm (0.32), Damage: light (0.42), Age (0.45), Escape attempt (0.45), District: Haifa (0.27), Damage: severe (0.45)"
+Weapons,importing_only,ethnicity,Arab vs Jewish,5.722,0.588,4,"Expressed regret (0.52), Magazines (log) (0.31), Criminal record: light (0.59), Criminal record: none (0.50)"
+Weapons,importing_only,district,Jerusalem vs rest,1.969,1.083,12,"Expressed regret (0.41), assault rifle (0.43), Premeditation (0.95), Damage: none (0.51), Damage: light (0.69), Magazines (log) (0.67), explosive charge (0.51), Criminal record: none (0.81), Bullets (log) (0.49), Independent offenses (0.51), Criminal record: light (1.08), improvised firearm (0.74)"
+Weapons,importing_only,district,South vs rest,0.665,0.833,9,"Magazines (log) (0.54), Criminal record: light (0.83), Expressed regret (0.68), improvised firearm (0.44), Single (0.68), Bullets (log) (0.36), Criminal record: none (0.73), Married (0.68), Year (0.35)"
+Weapons,importing_only,period,COVID (post vs pre),0.943,0.464,7,"District: Jerusalem (0.26), Criminal record: none (0.25), District: Haifa (0.46), grenade (0.26), Criminal record: light (0.32), Independent offenses (0.34), Expressed regret (0.28)"
+Weapons,importing_only,period,War (post vs pre),1.482,1.12,10,"Guilty plea (1.12), Criminal record: serious (0.57), Criminal record: none (1.01), Criminal record: light (0.69), Defendant Arab (0.61), assault rifle (0.43), Expressed regret (0.57), handgun (0.44), Undercover sale (0.57), improvised firearm (1.09)"

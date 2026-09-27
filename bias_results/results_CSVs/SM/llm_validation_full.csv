@@ -1,0 +1,45 @@
+﻿Variable,Domain,Type,Metric,n,All,Jewish,Arab / non-Jewish,CIs overlap,accuracy (All),rmse (All)
+Guilty Plea,Drugs,Categorical,F1,125,"0.946 [0.849, 1.000]","0.951 [0.818, 1.000]","0.939 [0.741, 1.000]",yes,0.984,
+responsabillity,Drugs,Categorical,F1,125,"0.889 [0.826, 0.941]","0.901 [0.815, 0.968]","0.871 [0.778, 0.945]",yes,0.896,
+regret,Drugs,Categorical,F1,125,"0.903 [0.848, 0.952]","0.928 [0.869, 0.985]","0.872 [0.764, 0.959]",yes,0.904,
+marital_status,Drugs,Categorical,F1,125,"0.947 [0.880, 0.992]","0.917 [0.730, 1.000]","0.965 [0.901, 1.000]",yes,0.96,
+self_use,Drugs,Categorical,F1,125,"0.965 [0.920, 1.000]","0.964 [0.911, 1.000]","0.965 [0.869, 1.000]",yes,0.976,
+laboratory,Drugs,Categorical,F1,125,"0.983 [0.945, 1.000]","1.000 [1.000, 1.000]","0.939 [0.741, 1.000]",yes,0.992,
+role,Drugs,Categorical,F1,125,"0.924 [0.831, 0.967]","0.895 [0.783, 0.971]","0.934 [0.795, 1.000]",yes,0.936,
+sold_to_agent,Drugs,Categorical,F1,125,"0.948 [0.878, 1.000]","0.936 [0.818, 1.000]","0.961 [0.865, 1.000]",yes,0.976,
+production_offence,Drugs,Categorical,F1,125,"1.000 [1.000, 1.000]","1.000 [1.000, 1.000]","1.000 [1.000, 1.000]",yes,1.0,
+possession_offence,Drugs,Categorical,F1,125,"0.968 [0.926, 1.000]","0.961 [0.899, 1.000]","0.977 [0.922, 1.000]",yes,0.976,
+trafficking_offence,Drugs,Categorical,F1,125,"0.984 [0.959, 1.000]","0.971 [0.927, 1.000]","1.000 [1.000, 1.000]",yes,0.984,
+Criminal_record,Drugs,Categorical,F1,125,"0.825 [0.643, 0.937]","0.774 [0.591, 0.940]","0.915 [0.814, 0.972]",yes,0.896,
+has_independent_offenses,Drugs,Categorical,F1,125,"0.982 [0.938, 1.000]","1.000 [1.000, 1.000]","0.965 [0.869, 1.000]",yes,0.992,
+age,Drugs,Continuous,MAE,90,"0.122 [0.033, 0.244]","0.113 [0.038, 0.226]","0.135 [0.000, 0.378]",yes,,0.527
+punishment_months,Drugs,Continuous,MAE,125,"0.016 [0.000, 0.064]","0.029 [0.000, 0.086]","0.000 [0.000, 0.000]",yes,,0.179
+Lower Bounds,Drugs,Continuous,MAE,90,"0.000 [0.000, 0.000]","0.000 [0.000, 0.000]","0.000 [0.000, 0.000]",yes,,0.0
+Upper Bounds,Drugs,Continuous,MAE,108,"0.000 [0.000, 0.000]","0.000 [0.000, 0.000]","0.000 [0.000, 0.000]",yes,,0.0
+drug_quantity_log,Drugs,Continuous,MAE,167,"0.053 [0.026, 0.087]","0.040 [0.016, 0.070]","0.075 [0.018, 0.149]",yes,,0.21
+section_144a,Weapons,Categorical,F1,125,"0.975 [0.943, 1.000]","0.981 [0.930, 1.000]","0.968 [0.919, 1.000]",yes,0.976,
+section_144b,Weapons,Categorical,F1,125,"0.992 [0.974, 1.000]","0.983 [0.944, 1.000]","1.000 [1.000, 1.000]",yes,0.992,
+section_144b2,Weapons,Categorical,F1,125,"1.000 [1.000, 1.000]","1.000 [1.000, 1.000]","1.000 [1.000, 1.000]",yes,1.0,
+section_144b3,Weapons,Categorical,F1,125,"1.000 [1.000, 1.000]","1.000 [1.000, 1.000]","1.000 [1.000, 1.000]",yes,1.0,
+confession,Weapons,Categorical,F1,125,"0.938 [0.849, 1.000]","0.928 [0.785, 1.000]","0.950 [0.821, 1.000]",yes,0.976,
+escape_attempt,Weapons,Categorical,F1,125,"0.957 [0.880, 1.000]","0.940 [0.742, 1.000]","0.966 [0.870, 1.000]",yes,0.984,
+has_independent_offenses,Weapons,Categorical,F1,125,"0.969 [0.930, 1.000]","0.982 [0.938, 1.000]","0.952 [0.870, 1.000]",yes,0.976,
+premeditation,Weapons,Categorical,F1,125,"0.944 [0.902, 0.984]","0.952 [0.887, 1.000]","0.936 [0.869, 0.984]",yes,0.944,
+regret,Weapons,Categorical,F1,125,"0.901 [0.844, 0.951]","0.918 [0.838, 0.983]","0.883 [0.796, 0.952]",yes,0.904,
+undercover_sale,Weapons,Categorical,F1,125,"1.000 [1.000, 1.000]","1.000 [1.000, 1.000]","1.000 [1.000, 1.000]",yes,1.0,
+is_actual_sentence,Weapons,Categorical,F1,125,"1.000 [1.000, 1.000]","1.000 [1.000, 1.000]","1.000 [1.000, 1.000]",yes,1.0,
+Criminal_record,Weapons,Categorical,F1,125,"0.925 [0.861, 0.966]","0.923 [0.822, 0.980]","0.925 [0.809, 0.982]",yes,0.928,
+actual_damage,Weapons,Categorical,F1,125,"0.939 [0.873, 0.988]","0.931 [0.832, 1.000]","0.951 [0.868, 1.000]",yes,0.96,
+marital_status,Weapons,Categorical,F1,125,"0.988 [0.967, 1.000]","0.972 [0.928, 1.000]","1.000 [1.000, 1.000]",yes,0.984,
+weapon_acquisition,Weapons,Categorical,F1,125,"0.963 [0.901, 0.995]","0.930 [0.777, 1.000]","0.992 [0.969, 1.000]",yes,0.968,
+weapon_motive,Weapons,Categorical,F1,125,"0.928 [0.866, 0.970]","0.880 [0.736, 0.963]","0.960 [0.901, 1.000]",yes,0.928,
+weapon_status,Weapons,Categorical,F1,125,"0.976 [0.947, 0.994]","0.946 [0.868, 0.991]","1.000 [1.000, 1.000]",NO,0.968,
+weapon_use,Weapons,Categorical,F1,125,"0.952 [0.832, 1.000]","0.950 [0.831, 1.000]","1.000 [1.000, 1.000]",yes,0.992,
+weapon_storage,Weapons,Categorical,F1,125,"0.937 [0.905, 0.964]","0.925 [0.876, 0.964]","0.950 [0.907, 0.982]",yes,0.84,
+magazines,Weapons,Continuous,MAE,125,"0.080 [0.000, 0.216]","0.016 [0.000, 0.048]","0.143 [0.000, 0.429]",yes,,0.657
+bullets,Weapons,Continuous,MAE,125,"0.056 [0.008, 0.120]","0.032 [0.000, 0.081]","0.079 [0.000, 0.206]",yes,,0.322
+age,Weapons,Continuous,MAE,103,"0.078 [0.000, 0.184]","0.040 [0.000, 0.120]","0.113 [0.000, 0.283]",yes,,0.462
+punishment_months,Weapons,Continuous,MAE,125,"0.000 [0.000, 0.000]","0.000 [0.000, 0.000]","0.000 [0.000, 0.000]",yes,,0.0
+min_punishment,Weapons,Continuous,MAE,106,"0.000 [0.000, 0.000]","0.000 [0.000, 0.000]","0.000 [0.000, 0.000]",yes,,0.0
+max_punishment,Weapons,Continuous,MAE,106,"0.000 [0.000, 0.000]","0.000 [0.000, 0.000]","0.000 [0.000, 0.000]",yes,,0.0
+weapon_counts_combined,Weapons,Continuous,MAE,1625,"0.038 [0.020, 0.062]","0.024 [0.011, 0.040]","0.051 [0.020, 0.100]",yes,,0.457

@@ -1,0 +1,13 @@
+﻿Domain,Offense,Variable,n,Median [IQR],Max,"Unstated (-1), %","Skewness, raw","Skewness, transformed"
+Drugs,cannabis,Drug quantity (grams),848,561.0 [97.1–6484.3],898176.4,,9.68,0.06
+Drugs,cocaine,Drug quantity (grams),280,16.5 [3.0–98.3],7935.0,,4.65,0.66
+Drugs,hashish,Drug quantity (grams),173,95.0 [13.3–318.9],111863.0,,8.35,0.36
+Weapons,possession_only,Bullets,385,6.5 [0.0–24.5],2710.0,21.0,8.79,0.96
+Weapons,possession_only,Magazines,385,1.0 [0.0–1.0],19.0,,4.65,0.81
+Weapons,possession_only,Weapons seized,385,1.0 [1.0–2.0],10.0,,3.28,1.74
+Weapons,carrying_only,Bullets,367,4.0 [0.0–11.0],8750.0,30.0,13.84,1.62
+Weapons,carrying_only,Magazines,367,1.0 [0.0–1.0],10.0,,3.66,0.6
+Weapons,carrying_only,Weapons seized,367,1.0 [1.0–1.0],579.0,,18.94,5.7
+Weapons,importing_only,Bullets,71,0.0 [0.0–3.0],15000.0,28.2,8.01,2.59
+Weapons,importing_only,Magazines,71,0.0 [0.0–1.0],29.0,,7.7,2.5
+Weapons,importing_only,Weapons seized,71,1.0 [1.0–3.0],62.0,,4.75,2.06

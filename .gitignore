@@ -1,0 +1,15 @@
+# credentials
+.env
+# verdicts and all case-level data (licensed from Nevo; contain personal information) - never commit
+*/all_verdicts/
+*/CSV_OUTPUT/
+*/data/
+*/llm_results/
+*/matched_outputs/
+*.docx
+*.doc
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
